@@ -9,3 +9,5 @@ select * from AddressBook;
 update AddressBook set FirstName = 'kirti' where id = 1;
 DELETE FROM AddressBook WHERE FirstName='Aastha' and id = 2;
 SELECT FirstName, city, state FROM AddressBook where FirstName = 'kirti';
+SELECT COUNT(city and state)
+FROM AddressBook;
