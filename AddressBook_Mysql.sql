@@ -11,3 +11,4 @@ DELETE FROM AddressBook WHERE FirstName='Aastha' and id = 2;
 SELECT FirstName, city, state FROM AddressBook where FirstName = 'kirti';
 SELECT COUNT(city and state)
 FROM AddressBook;
+select FirstName,city from AddressBook order by FirstName asc;
